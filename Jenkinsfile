@@ -44,7 +44,7 @@ pipeline {
                   "files": [
                     {
                       "pattern": "target/*.jar",
-                      "target": "CI_Poc_Abhijeet/"
+                      "target": "CI_App/"
                     }
                  ]
                 }"""
