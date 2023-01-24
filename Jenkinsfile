@@ -20,14 +20,14 @@ pipeline {
 //             }
 //         }
           
-        stage('Sonar Analysis') {
-            steps {
+//         stage('Sonar Analysis') {
+//             steps {
             
-                withSonarQubeEnv('SonarQube') {
-                    bat 'mvn sonar:sonar'
-                }
-            }
-        }
+//                 withSonarQubeEnv('SonarQube') {
+//                     bat 'mvn sonar:sonar'
+//                 }
+//             }
+//         }
           
         stage('Compile'){
             steps{
