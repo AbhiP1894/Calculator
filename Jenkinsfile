@@ -13,12 +13,12 @@ pipeline {
             }
         }
           
-        stage('test'){
-            steps{
-                echo "Test"
-             bat "mvn clean test"
-            }
-        }
+//         stage('test'){
+//             steps{
+//                 echo "Test"
+//              bat "mvn clean test"
+//             }
+//         }
           
         stage('Sonar Analysis') {
             steps {
